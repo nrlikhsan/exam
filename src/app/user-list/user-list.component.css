@@ -1,0 +1,23 @@
+table, th ,td{
+    border: 2px solid brown;
+    font-size: 15px;
+    font: "monospace";
+    border-spacing: 9px;
+}
+
+button[type="button"]{
+    padding: 20px 50px;
+    margin: 3px 3px;
+    border-radius: 5px;
+    border-color: blue;
+    color: red;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.10);
+}
+
+button[type="button"]:hover{
+    background-color: blue;
+    transition-duration: 0.3s;
+    border-color: green;
+    color: greenyellow;
+}
